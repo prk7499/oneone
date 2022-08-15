@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-15T20:56:12 IST" name="Orange HRM Application" finished-at="2022-08-15T20:57:19 IST" duration-ms="66983">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomePageTest.validateHomePageAdminLink()[pri:5, instance:TestLayer.HomePageTest@23c30a20]" name="validateHomePageAdminLink" class="TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.validateHomePageLeaveLink()[pri:6, instance:TestLayer.HomePageTest@23c30a20]" name="validateHomePageLeaveLink" class="TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.validateHomePageLogo()[pri:3, instance:TestLayer.HomePageTest@23c30a20]" name="validateHomePageLogo" class="TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.validateHomePagePIMLink()[pri:4, instance:TestLayer.HomePageTest@23c30a20]" name="validateHomePagePIMLink" class="TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.validateHomePageTitle()[pri:1, instance:TestLayer.HomePageTest@23c30a20]" name="validateHomePageTitle" class="TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.validateHomePageUrl()[pri:2, instance:TestLayer.HomePageTest@23c30a20]" name="validateHomePageUrl" class="TestLayer.HomePageTest"/>
+      </group> <!-- HomePage -->
+      <group name="PIMPage">
+        <method signature="PIMPageTest.validateCountryDropDown()[pri:4, instance:TestLayer.PIMPageTest@3cebbb30]" name="validateCountryDropDown" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.validateDobDates()[pri:6, instance:TestLayer.PIMPageTest@3cebbb30]" name="validateDobDates" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.validateDrivingLicenseDate()[pri:3, instance:TestLayer.PIMPageTest@3cebbb30]" name="validateDrivingLicenseDate" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.validateMaritalStatusDropDown()[pri:5, instance:TestLayer.PIMPageTest@3cebbb30]" name="validateMaritalStatusDropDown" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" name="validatePIMNewEmployee" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.validatePersonalDetailsInPIMPage()[pri:2, instance:TestLayer.PIMPageTest@3cebbb30]" name="validatePersonalDetailsInPIMPage" class="TestLayer.PIMPageTest"/>
+      </group> <!-- PIMPage -->
+      <group name="LoginPage">
+        <method signature="LoginPageTest.validateLoginFunctionality()[pri:0, instance:TestLayer.LoginPageTest@53ce1329]" name="validateLoginFunctionality" class="TestLayer.LoginPageTest"/>
+      </group> <!-- LoginPage -->
+    </groups>
+    <test started-at="2022-08-15T20:56:12 IST" name="PIM Page Test Cases" finished-at="2022-08-15T20:57:19 IST" duration-ms="66983">
+      <class name="TestLayer.HomePageTest">
+        <test-method signature="validateHomePageTitle()[pri:1, instance:TestLayer.HomePageTest@23c30a20]" started-at="2022-08-15T20:56:30 IST" name="validateHomePageTitle" depends-on-groups="LoginPage" finished-at="2022-08-15T20:56:30 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method signature="validateHomePageUrl()[pri:2, instance:TestLayer.HomePageTest@23c30a20]" started-at="2022-08-15T20:56:31 IST" name="validateHomePageUrl" depends-on-groups="LoginPage" finished-at="2022-08-15T20:56:31 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageUrl -->
+        <test-method signature="validateHomePageLogo()[pri:3, instance:TestLayer.HomePageTest@23c30a20]" started-at="2022-08-15T20:56:31 IST" name="validateHomePageLogo" depends-on-groups="LoginPage" finished-at="2022-08-15T20:56:31 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLogo -->
+        <test-method signature="validateHomePagePIMLink()[pri:4, instance:TestLayer.HomePageTest@23c30a20]" started-at="2022-08-15T20:56:31 IST" name="validateHomePagePIMLink" depends-on-groups="LoginPage" finished-at="2022-08-15T20:56:33 IST" duration-ms="2064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePagePIMLink -->
+        <test-method signature="validateHomePageAdminLink()[pri:5, instance:TestLayer.HomePageTest@23c30a20]" started-at="2022-08-15T20:56:33 IST" name="validateHomePageAdminLink" depends-on-groups="LoginPage" finished-at="2022-08-15T20:56:35 IST" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageAdminLink -->
+        <test-method signature="validateHomePageLeaveLink()[pri:6, instance:TestLayer.HomePageTest@23c30a20]" started-at="2022-08-15T20:56:35 IST" name="validateHomePageLeaveLink" depends-on-groups="LoginPage" finished-at="2022-08-15T20:56:37 IST" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLeaveLink -->
+      </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.PIMPageTest">
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:56:38 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:56:42 IST" duration-ms="3803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:56:42 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:56:45 IST" duration-ms="2837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:56:45 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:56:48 IST" duration-ms="2761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:56:48 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:56:51 IST" duration-ms="2550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:56:51 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:56:54 IST" duration-ms="2878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:56:54 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:56:57 IST" duration-ms="2553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:56:57 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:00 IST" duration-ms="2798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:57:00 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:03 IST" duration-ms="2610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:57:03 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:06 IST" duration-ms="2915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePIMNewEmployee(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:57:06 IST" name="validatePIMNewEmployee" data-provider="testData" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:09 IST" duration-ms="2915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xyz10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePIMNewEmployee -->
+        <test-method signature="validatePersonalDetailsInPIMPage()[pri:2, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:57:09 IST" name="validatePersonalDetailsInPIMPage" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:09 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePersonalDetailsInPIMPage -->
+        <test-method signature="validateDrivingLicenseDate()[pri:3, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:57:10 IST" name="validateDrivingLicenseDate" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:13 IST" duration-ms="3034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDrivingLicenseDate -->
+        <test-method signature="validateCountryDropDown()[pri:4, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:57:13 IST" name="validateCountryDropDown" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:15 IST" duration-ms="2129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountryDropDown -->
+        <test-method signature="validateMaritalStatusDropDown()[pri:5, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:57:15 IST" name="validateMaritalStatusDropDown" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:16 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMaritalStatusDropDown -->
+        <test-method signature="validateDobDates()[pri:6, instance:TestLayer.PIMPageTest@3cebbb30]" started-at="2022-08-15T20:57:16 IST" name="validateDobDates" depends-on-groups="HomePage" finished-at="2022-08-15T20:57:19 IST" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDobDates -->
+      </class> <!-- TestLayer.PIMPageTest -->
+      <class name="TestLayer.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestLayer.LoginPageTest@53ce1329]" started-at="2022-08-15T20:56:13 IST" name="setUp" finished-at="2022-08-15T20:56:21 IST" duration-ms="7773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:TestLayer.LoginPageTest@53ce1329]" started-at="2022-08-15T20:56:21 IST" name="validateLoginFunctionality" finished-at="2022-08-15T20:56:30 IST" duration-ms="9500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.LoginPageTest@53ce1329]" started-at="2022-08-15T20:57:19 IST" name="tearDown" finished-at="2022-08-15T20:57:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestLayer.LoginPageTest -->
+    </test> <!-- PIM Page Test Cases -->
+  </suite> <!-- Orange HRM Application -->
+</testng-results>

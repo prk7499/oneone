@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestLayer.HomePageTest">
+        <methods>
+          <include name="clickOnPimLink"/>
+          <include name="validateHomePageLogo"/>
+          <include name="validateHomePageUrl"/>
+          <include name="validatePimLinkName"/>
+          <include name="validateAdminDisplayedStatus"/>
+          <include name="validateAdminLinkName"/>
+          <include name="validatePimEnabledStatus"/>
+          <include name="validateHomePagetitle"/>
+          <include name="validateAdminEnabledStatus"/>
+          <include name="validatePimDisplayedStatus"/>
+          <include name="clickOnAdminLink"/>
+        </methods>
+      </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.LoginPageTest">
+        <methods>
+          <include name="validateEnabledStatusofPassword"/>
+          <include name="validateEnabledStatusofLoginButton"/>
+          <include name="validateEnabledStatusofUsername"/>
+          <include name="setUp"/>
+          <include name="validateDisplayedStatusofLoginButton"/>
+          <include name="tearDown"/>
+          <include name="validateLoginButtonValue"/>
+          <include name="enterValueInPasswordTextBoxAndValidate"/>
+          <include name="enterValueInTextBoxAndValidate"/>
+          <include name="validateDisplayedStatusofUsername"/>
+          <include name="validateDisplayedStatusofPassword"/>
+          <include name="clickonLoginButton"/>
+        </methods>
+      </class> <!-- TestLayer.LoginPageTest -->
+      <class name="TestLayer.PIMPageTest">
+        <methods>
+          <include name="addNewEmployeeInPimPage"/>
+        </methods>
+      </class> <!-- TestLayer.PIMPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

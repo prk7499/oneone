@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  PIM Page Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PIM Page Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 15 20:56:12 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>66 seconds (66983 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestLayer.HomePageTest.validateHomePageTitle()'><b>validateHomePageTitle</b><br>Test class: TestLayer.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>TestLayer.HomePageTest@23c30a20</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc10, pqr10, xyz10</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePersonalDetailsInPIMPage()'><b>validatePersonalDetailsInPIMPage</b><br>Test class: TestLayer.PIMPageTest</td>
+<td></td>
+<td>0</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validateCountryDropDown()'><b>validateCountryDropDown</b><br>Test class: TestLayer.PIMPageTest</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.HomePageTest.validateHomePagePIMLink()'><b>validateHomePagePIMLink</b><br>Test class: TestLayer.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.HomePageTest@23c30a20</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc8, pqr8, xyz8</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.HomePageTest.validateHomePageUrl()'><b>validateHomePageUrl</b><br>Test class: TestLayer.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>TestLayer.HomePageTest@23c30a20</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc4, pqr4, xyz4</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc6, pqr6, xyz6</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.HomePageTest.validateHomePageAdminLink()'><b>validateHomePageAdminLink</b><br>Test class: TestLayer.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>TestLayer.HomePageTest@23c30a20</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc5, pqr5, xyz5</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc3, pqr3, xyz3</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.HomePageTest.validateHomePageLogo()'><b>validateHomePageLogo</b><br>Test class: TestLayer.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>TestLayer.HomePageTest@23c30a20</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc9, pqr9, xyz9</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.LoginPageTest.validateLoginFunctionality()'><b>validateLoginFunctionality</b><br>Test class: TestLayer.LoginPageTest</td>
+<td></td>
+<td>9</td>
+<td>TestLayer.LoginPageTest@53ce1329</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validateMaritalStatusDropDown()'><b>validateMaritalStatusDropDown</b><br>Test class: TestLayer.PIMPageTest</td>
+<td></td>
+<td>0</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc2, pqr2, xyz2</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validateDrivingLicenseDate()'><b>validateDrivingLicenseDate</b><br>Test class: TestLayer.PIMPageTest</td>
+<td></td>
+<td>3</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validateDobDates()'><b>validateDobDates</b><br>Test class: TestLayer.PIMPageTest</td>
+<td></td>
+<td>3</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc7, pqr7, xyz7</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+<tr>
+<td title='TestLayer.HomePageTest.validateHomePageLeaveLink()'><b>validateHomePageLeaveLink</b><br>Test class: TestLayer.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>TestLayer.HomePageTest@23c30a20</td></tr>
+<tr>
+<td title='TestLayer.PIMPageTest.validatePIMNewEmployee()'><b>validatePIMNewEmployee</b><br>Test class: TestLayer.PIMPageTest<br>Parameters: Abc1, pqr1, xyz1</td>
+<td></td>
+<td>3</td>
+<td>TestLayer.PIMPageTest@3cebbb30</td></tr>
+</table><p>
+</body>
+</html>
